@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneWayToSourceBindingError", "OneWayToSourceBindingError\OneWayToSourceBindingError.csproj", "{A34E90BF-4D8B-47F2-9EB4-E3C42052FFB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beta", "FontRenderIssue\Beta\Beta.csproj", "{806BAD9F-3306-4C3E-BBD0-37BE1E1DE2FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FontRenderIssue", "FontRenderIssue", "{A3885FBE-076B-4EEB-BA9A-78AFB5967D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stable", "FontRenderIssue\Stable\Stable.csproj", "{D511F2DA-7872-462C-8D7F-3549CC4FB244}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{A34E90BF-4D8B-47F2-9EB4-E3C42052FFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A34E90BF-4D8B-47F2-9EB4-E3C42052FFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A34E90BF-4D8B-47F2-9EB4-E3C42052FFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806BAD9F-3306-4C3E-BBD0-37BE1E1DE2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806BAD9F-3306-4C3E-BBD0-37BE1E1DE2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806BAD9F-3306-4C3E-BBD0-37BE1E1DE2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806BAD9F-3306-4C3E-BBD0-37BE1E1DE2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D511F2DA-7872-462C-8D7F-3549CC4FB244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D511F2DA-7872-462C-8D7F-3549CC4FB244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D511F2DA-7872-462C-8D7F-3549CC4FB244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D511F2DA-7872-462C-8D7F-3549CC4FB244}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{806BAD9F-3306-4C3E-BBD0-37BE1E1DE2FD} = {A3885FBE-076B-4EEB-BA9A-78AFB5967D7C}
+		{D511F2DA-7872-462C-8D7F-3549CC4FB244} = {A3885FBE-076B-4EEB-BA9A-78AFB5967D7C}
 	EndGlobalSection
 EndGlobal
