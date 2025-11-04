@@ -8,6 +8,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FontRenderIssue", "FontRend
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stable", "FontRenderIssue\Stable\Stable.csproj", "{D511F2DA-7872-462C-8D7F-3549CC4FB244}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccessKeyFocus", "AccessKeyFocus", "{5CBFC30F-8DE1-4996-9A53-ADFE5D6D682D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessKeyFocusTest", "FocusTest\AccessKeyFocusTest\AccessKeyFocusTest.csproj", "{E038D323-240E-43EC-A45D-189D495A1AFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +30,14 @@ Global
 		{D511F2DA-7872-462C-8D7F-3549CC4FB244}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D511F2DA-7872-462C-8D7F-3549CC4FB244}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D511F2DA-7872-462C-8D7F-3549CC4FB244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E038D323-240E-43EC-A45D-189D495A1AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E038D323-240E-43EC-A45D-189D495A1AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E038D323-240E-43EC-A45D-189D495A1AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E038D323-240E-43EC-A45D-189D495A1AFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{806BAD9F-3306-4C3E-BBD0-37BE1E1DE2FD} = {A3885FBE-076B-4EEB-BA9A-78AFB5967D7C}
 		{D511F2DA-7872-462C-8D7F-3549CC4FB244} = {A3885FBE-076B-4EEB-BA9A-78AFB5967D7C}
+		{E038D323-240E-43EC-A45D-189D495A1AFF} = {5CBFC30F-8DE1-4996-9A53-ADFE5D6D682D}
 	EndGlobalSection
 EndGlobal
