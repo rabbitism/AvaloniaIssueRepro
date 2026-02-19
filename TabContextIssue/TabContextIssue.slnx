@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Stable\TabContextStable.csproj" Type="Classic C#" />
+  <Project Path="Preview\TabContextPreview.csproj" Type="Classic C#" />
+  <Properties Name="Visual Studio">
+    <Property Name="OpenWith" Value="Visual Studio Version 17" />
+  </Properties>
+</Solution>
