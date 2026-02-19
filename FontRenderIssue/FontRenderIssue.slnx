@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Beta\Beta.csproj" Type="Classic C#" />
+  <Project Path="Stable\Stable.csproj" Type="Classic C#" />
+  <Properties Name="Visual Studio">
+    <Property Name="OpenWith" Value="Visual Studio Version 17" />
+  </Properties>
+</Solution>
