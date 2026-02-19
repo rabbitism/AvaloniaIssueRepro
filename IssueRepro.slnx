@@ -10,6 +10,10 @@
   <Folder Name="/AccessKeyFocus/">
     <Project Path="FocusTest\AccessKeyFocusTest\AccessKeyFocusTest.csproj" Type="Classic C#" />
   </Folder>
+  <Folder Name="/TabContextIssue/">
+    <Project Path="TabContextIssue\Stable\TabContextStable.csproj" Type="Classic C#" />
+    <Project Path="TabContextIssue\Preview\TabContextPreview.csproj" Type="Classic C#" />
+  </Folder>
   <Properties Name="Visual Studio">
     <Property Name="OpenWith" Value="Visual Studio Version 17" />
   </Properties>
